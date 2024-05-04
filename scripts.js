@@ -21,11 +21,17 @@ async function getMeme() {
 
 setInterval(getMeme, 5000);
 function white(){
-    document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = 'white';
+    document.body.style.color = 'black'; 
+    document.querySelector('h1').style.color = 'black';
 }
 function black(){
     document.body.style.backgroundColor = "black";
+    document.querySelector('h1').style.color = 'white';
+   
 }
 function blue(){
     document.body.style.backgroundColor = "blue";
+    document.querySelector('h1').style.color = 'white';
 }
+
