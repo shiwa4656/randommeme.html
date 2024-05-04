@@ -60,4 +60,15 @@ img{
         width: 100%;
 
     }
+    .memediv{
+        margin-left: 0;
+    }
+    #meme{
+        width: 100%;
+    }
+    .background-btn{
+        width: 100%;
+        
+    }
+
 }
