@@ -12,3 +12,29 @@ img{
     width: 500px;
     height: 500px;
 }
+.background-btn{
+    background-color: #e40c0c;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+
+}
+.background-btn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .background-btn{
+        width: 100%;
+
+    }
+}
